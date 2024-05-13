@@ -211,7 +211,9 @@ class Order with _$Order {
 第一步: 編寫模型組
 
 先在任意位置創建接下來會用到的數據模型檔案
+
 ![Alt text](image.png)
+
 接著簡單建立模型
 
 ```dart
@@ -313,3 +315,18 @@ class _CountPageState extends State<CountPage> {
 4. views/orider_page.dart
 
 ![Alt text](image-4.png)
+
+* 數據組生成可以使用quicktype網站協助幫忙建立
+  https://app.quicktype.io/
+
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+> 盡量建立變數的時候都是不要使用到可能為空的變數 
+> (Ex. int? age) 
+
+![Alt text](image-7.png)
+>第一個為自動幫你建立freezed數據模型
+>**很重要**
+>第二為自動辨識json，假如你的Json變數名稱為 => **Order_id** 
+>在建立freezed的時候會變成**OrderID**，使用到這個Jsonkey的時候就會幫你辨識為
+**Order_id**
