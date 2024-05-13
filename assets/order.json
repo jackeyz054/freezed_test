@@ -1,0 +1,22 @@
+[
+    {
+        "dispatch_id": 11172,
+        "order_type": "進口",
+        "cargo_empty": "空櫃",
+        "cargo_oper_status": "1230",
+        "cargo_item": "40呎",
+        "cargo_type": "冷藏",
+        "container_number": "APHU4517446",
+        "trailer_number": "20220830",
+        "sono": "",
+        "order_numer": "I230822015",
+        "origin": "台積電",
+        "origin_time": "2023/08/22",
+        "destination": "台積電二廠",
+        "destination_time": "2023/08/25",
+        "dispatch_exec_status": "execute",
+        "dispatch_assign_date": "2023/12/01",
+        "dispatch_expired_date": "2023/08/25",
+        "dispatch_app_status": 0
+    }
+]
